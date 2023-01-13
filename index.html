@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/index.css">
+	<link rel="icon" href="img/icon/avatarka.png">
+	<script defer src="js/gsap.min.js"></script>
+	<script defer src="js/ScrollTrigger.min.js"></script>
+	<script defer src="js/ScrollSmoother.min.js"></script>
+	<script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script defer src="js/slick.min.js"></script>
+	<script defer src="js/script.js"></script>
+	<title>CROVEX - Website Developers</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<main class="main">
+				<section class="section1">	
+					<div class="section1Container">
+						<div class="section1Container__textContainer">
+							<img src="img/section1/astr.png" alt="">
+							<p>WEBSITE DEVELOPERS</p>
+						</div>
+						<div class="layer layers__bg" style="background-image: url('../img/section1/bg.png');"></div>
+						<div class="layer layers__back" style="background-image: url('../img/section1/back.png');"></div>
+						<div class="layer layers__midle" style="background-image: url('../img/section1/midle.png');"></div>
+						<div class="layer layers__front" style="background-image: url('../img/section1/front.png');"></div>
+					</div>
+				</section>
+				<section class="section2" id="scrollToMain">	
+					<header class="section2__header">
+						<nav class="header__navigationContainer">
+							<ul class="navigationContainer__listContainer">
+								<li><a href="#scrollToMain">Главная</a></li>
+								<li><a href="#scrollToAbout">О нас</a></li>
+								<li><a href="#scrollToServices">Услуги</a></li>
+								<li><a href="#scrollTopPort">Портфолио</a></li>
+							</ul>
+							<div class="navigationContainer__burgerMenu">
+								<span></span>
+								<p></p>
+								<span></span>
+							</div>
+							<ul class="navigationContainer__linkContainer">
+								<li><a target="_blank" href="https://www.youtube.com/@CROVEXweb-dev/featured"><svg width="37" height="26" viewBox="0 0 50 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M45.9122 2.20629C44.5589 1.25879 40.7879 0 24.9867 0C8.05394 0 5.54177 1.44555 4.73555 1.91855C0.444791 4.4262 0.0374114 15.5283 0 17.7793C0.0515078 20.7525 0.545514 30.6444 4.73247 33.0914C5.53714 33.5628 8.03521 35 24.9867 35C40.7981 35 44.5644 33.7473 45.9122 32.8036C49.5692 30.2443 49.9899 21.4305 50 17.7407C49.9906 14.7737 49.6707 4.84007 45.9122 2.20634L45.9122 2.20629ZM44.0891 30.3392C43.5451 30.7203 40.4218 31.9631 24.9866 31.9631C10.0642 31.9631 6.93316 30.8364 6.3416 30.4894C4.83539 29.6103 3.24567 24.9433 3.12085 17.771C3.24416 10.6146 4.85573 5.39041 6.34482 4.52186C6.93794 4.17338 10.0806 3.03759 24.9866 3.03759C40.4093 3.03759 43.5411 4.28883 44.0891 4.67147C45.426 5.60835 46.8572 10.5402 46.8783 17.7505C46.8572 25.074 45.4165 29.4099 44.0891 30.3392H44.0891ZM35.1657 16.3057L21.1214 7.92155C20.8846 7.78266 20.6142 7.70744 20.3377 7.70357C20.0613 7.6997 19.7887 7.76733 19.548 7.89953C19.307 8.03176 19.1065 8.22389 18.9669 8.45627C18.8273 8.68865 18.7536 8.95294 18.7535 9.22209V25.9932C18.7537 26.3959 18.9182 26.782 19.2109 27.0667C19.5036 27.3514 19.9005 27.5115 20.3144 27.5117C20.5984 27.5117 20.8771 27.4364 21.1205 27.2938L35.165 18.9067C35.6332 18.6311 35.9197 18.1385 35.9197 17.6062C35.9197 17.0739 35.634 16.5797 35.1658 16.3057H35.1657ZM21.876 23.3033V11.9104L31.3386 17.6061L21.876 23.3033Z" fill="gray"/>
+									</svg></a></li>
+								<li><a target="_blank" href="https://discord.gg/AYCSCRVMVc"><svg width="37" height="26" viewBox="0 0 50 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M20.8322 20.669C20.8322 21.1249 20.6855 21.5706 20.4107 21.9497C20.1359 22.3288 19.7454 22.6243 19.2884 22.7988C18.8315 22.9732 18.3287 23.0189 17.8436 22.9299C17.3585 22.841 16.9129 22.6214 16.5632 22.299C16.2135 21.9766 15.9753 21.5659 15.8788 21.1187C15.7823 20.6715 15.8319 20.208 16.0211 19.7868C16.2104 19.3656 16.5309 19.0055 16.9422 18.7522C17.3534 18.4989 17.8369 18.3637 18.3315 18.3637C18.9947 18.3637 19.6308 18.6066 20.0997 19.0389C20.5687 19.4712 20.8322 20.0576 20.8322 20.669ZM31.6685 18.3637C31.1739 18.3637 30.6905 18.4989 30.2792 18.7522C29.868 19.0055 29.5475 19.3656 29.3582 19.7868C29.1689 20.208 29.1194 20.6715 29.2159 21.1187C29.3124 21.5659 29.5505 21.9766 29.9003 22.299C30.25 22.6214 30.6956 22.841 31.1807 22.9299C31.6658 23.0189 32.1686 22.9732 32.6255 22.7988C33.0824 22.6243 33.473 22.3288 33.7478 21.9497C34.0226 21.5706 34.1692 21.1249 34.1692 20.669C34.1692 20.0576 33.9058 19.4712 33.4368 19.0389C32.9678 18.6066 32.3318 18.3637 31.6685 18.3637ZM48.84 28.8334C45.3807 31.5997 40.7336 33.7129 35.4196 34.9039C35.1535 34.9642 34.8808 34.9964 34.6068 35C33.9893 34.9995 33.3844 34.8389 32.8611 34.5366C32.3379 34.2343 31.9174 33.8024 31.6477 33.2903L29.668 29.6403C26.5665 29.9733 23.4335 29.9733 20.332 29.6403L18.3523 33.2903C18.0826 33.8024 17.6621 34.2343 17.1389 34.5366C16.6156 34.8389 16.0107 34.9995 15.3931 35C15.1192 34.9964 14.8465 34.9642 14.5804 34.9039C9.26644 33.7129 4.61931 31.5997 1.16001 28.8334C0.672099 28.4466 0.316068 27.9378 0.134877 27.3685C-0.0463142 26.7993 -0.0449209 26.1938 0.138888 25.6253L7.2242 3.87901C7.36037 3.43918 7.60394 3.03392 7.93626 2.69428C8.26858 2.35464 8.68082 2.08962 9.1414 1.91954C11.2269 1.11849 13.3899 0.501003 15.6015 0.0753296C16.404 -0.0920591 17.2453 0.0217348 17.9617 0.39457C18.6781 0.767404 19.2185 1.37261 19.4776 2.09243L20.728 5.5119C23.5678 5.23018 26.4322 5.23018 29.272 5.5119L30.5224 2.09243C30.7815 1.37261 31.3219 0.767404 32.0383 0.39457C32.7547 0.0217348 33.596 -0.0920591 34.3985 0.0753296C36.6101 0.501003 38.7731 1.11849 40.8586 1.91954C41.3192 2.08962 41.7314 2.35464 42.0637 2.69428C42.3961 3.03392 42.6396 3.43918 42.7758 3.87901L49.8611 25.6253C50.0449 26.1938 50.0463 26.7993 49.8651 27.3685C49.6839 27.9378 49.3279 28.4466 48.84 28.8334ZM46.6519 26.5282L39.5874 4.76269C37.6822 4.03303 35.708 3.46712 33.6899 3.07217L32.6271 5.95374C34.0018 6.19662 35.3589 6.5174 36.6908 6.91426C36.8988 6.97733 37.0912 7.07755 37.2572 7.20919C37.4232 7.34083 37.5594 7.50131 37.6581 7.68148C37.7568 7.86165 37.816 8.05798 37.8324 8.25925C37.8488 8.46052 37.822 8.66279 37.7536 8.85452C37.6851 9.04625 37.5764 9.22368 37.4336 9.37668C37.2908 9.52968 37.1167 9.65525 36.9213 9.74623C36.7259 9.83721 36.5129 9.89181 36.2946 9.90691C36.0762 9.92202 35.8568 9.89733 35.6488 9.83426C32.4604 8.87373 28.7719 8.37426 25 8.37426C21.2281 8.37426 17.5396 8.87373 14.3512 9.83426C14.1837 9.88765 14.0074 9.91365 13.8302 9.9111C13.4337 9.91119 13.0502 9.78101 12.7484 9.54392C12.4466 9.30683 12.2464 8.97835 12.1837 8.61745C12.1209 8.25654 12.1998 7.88684 12.4061 7.57469C12.6123 7.26255 12.9326 7.02839 13.3092 6.91426C14.6411 6.5174 15.9982 6.19662 17.3729 5.95374L16.3309 3.07217C14.3084 3.4668 12.3279 4.0261 10.4126 4.74348L3.32728 26.509C6.39064 28.9679 10.5585 30.8313 15.3723 31.9263L16.8727 29.1408C15.6678 28.9163 14.478 28.6276 13.3092 28.2763C13.1013 28.2133 12.9088 28.113 12.7428 27.9814C12.5768 27.8498 12.4406 27.6893 12.3419 27.5091C12.2432 27.3289 12.184 27.1326 12.1676 26.9313C12.1512 26.7301 12.178 26.5278 12.2464 26.3361C12.3149 26.1443 12.4236 25.9669 12.5664 25.8139C12.7092 25.6609 12.8833 25.5353 13.0787 25.4444C13.2741 25.3534 13.4871 25.2988 13.7055 25.2837C13.9238 25.2686 14.1432 25.2933 14.3512 25.3563C17.5396 26.3169 21.2281 26.8163 25 26.8163C28.7719 26.8163 32.4604 26.3169 35.6488 25.3563C36.0689 25.229 36.5266 25.2606 36.9213 25.4444C37.316 25.6281 37.6154 25.9489 37.7536 26.3361C37.8917 26.7233 37.8574 27.1452 37.6581 27.5091C37.4588 27.873 37.1108 28.149 36.6908 28.2763C35.522 28.6276 34.3322 28.9163 33.1273 29.1408L34.6277 31.9263C39.4415 30.8313 43.6094 28.9679 46.6519 26.5282Z" fill="gray"/>
+									</svg></a></li>
+								<li><a target="_blank" href="https://vk.com/crowexwebdev"><svg class="a" width="45" height="26" viewBox="0 0 62 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M36.4615 35.7614V25.5166C43.3231 26.5657 45.4923 31.9813 49.8615 35.7614H61C58.2152 29.5264 54.0602 24.004 48.8462 19.6073C52.8462 14.0837 57.0923 8.88419 59.1692 1H49.0462C45.0769 7.03271 42.9846 14.0992 36.4615 18.7587V1H21.7692L25.2769 5.35096V20.857C19.5846 20.1936 15.7385 9.74821 11.5692 1H1C4.84615 12.8186 12.9385 38.7546 36.4615 35.7614V35.7614Z" stroke="gray" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg></a></li>
+							</ul>
+						</nav>
+					</header>
+					<div class="section2Container">
+						<div class="section2Container__leftSideTextContainer">
+							<h2 id="title" class="leftSideTextContainer__title">Разработка, дизайн и исправление сайта? Тогда вы по адресу!</h2>
+							<p id="descriptionGray" class="leftSideTextContainer__description">У нас есть большой выбор услуг, которые могут вам понадобиться. Начиная от исправления существующих проектов, заканчивая созданием сайтов с нуля!</p>
+							<a target="_blank" href="https://vk.com/crowexwebdev" id="greenButton">Заказать сейчас!</a>
+						</div>
+						<div class="section2Container__imgContainer">
+							<div class="imgContainer__img"><span></span><img src="img/section2/astr2.png" alt=""><span></span></div>
+							<p id="descriptionGray">Вы можете заказать какую-либо услугу, написав нам на почту или связавшись с нами через группу в вк!</p>
+						</div>
+					</div>
+				</section>
+				<section class="section3">	 
+					<div class="section3Container">
+						<div class="section3Container__itemsContainer">
+							<div class="itemsContainer__itemContainer">
+								<h3>27+</h3>
+								<p>успешно завершенных проектов!</p>
+							</div>
+							<div class="itemsContainer__itemContainer">
+								<h3>30</h3>
+								<p>Календарных дней до релиза вашего проекта</p>
+							</div>
+							<div class="itemsContainer__itemContainer">
+								<h3>15+</h3>
+								<p>Услуг для решения ваших проблем</p>
+							</div>
+							<div class="itemsContainer__itemContainer">
+								<h3>100%</h3>
+								<p>Гарантия качества и сдачи проекта в срок!</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section4" id="scrollToAbout">	
+					<div class="section4Container">
+						<div class="section4Container__imgContainer">
+							<img src="img/section4/kosmolet.png" alt="">
+						</div>
+						<div class="section4Container__textContainer">
+							<h2 id="title">Мы любим покорять новые галактики совершенства</h2>
+							<p id="descriptionWhite">Мы просто разрабатываем понятные и красивые интерфейсы. Которые нравятся всем!</p>
+							<a target="_blank" href="https://www.youtube.com/@CROVEXweb-dev/featured">Посмотреть</a>
+						</div>
+					</div>
+				</section>
+				<section class="section5">	
+					<div class="section5Container">
+						<h2 id="title" class="section5Container__title">Услуги</h2>
+						<div class="section5Container__itemsContainer" id="scrollToServices">
+							<div class="itemsContainer__item">
+								<div class="item__infContainer">
+									<div class="item__logo">
+										<img src="img/section5/logo design.svg" alt="">
+									</div>	
+									<h3 class="item__title">Разработка логотипов</h3>
+									<ul class="item__ourSkills">
+										<li>Разработка логотипа по ТЗ</li>
+										<li>Упрощение логотипа</li>
+										<li>Редизайн логотипа</li>
+									</ul>
+									<p class="item__information" id="descriptionGray">У нас есть дизайнеры, которые разработают для вас уникальный логотип</p>
+								</div>
+								<div class="item__button">
+									<a href="#!">Подробнее</a>
+								</div>
+							</div>
+							<div class="itemsContainer__item">
+								<div class="item__logo">
+									<img src="img/section5/design.svg" alt="">
+								</div>	
+								<h3 class="item__title">Дизайн соц-сетей</h3>
+								<ul class="item__ourSkills">
+									<li>Дизайн для YouTube канала</li>
+									<li>Дизайн для VK группы</li>
+									<li>Дизайн для Trovo канала</li>
+									<li>Дизайн для Twitch канала</li>
+								</ul>
+								<p class="item__information" id="descriptionGray">Наши дизайнеры разработают фирменный стиль для ваших соц-сетей и стриминговых платформ!</p>
+								<div class="item__button">
+									<a href="#!">Подробнее</a>
+								</div>
+							</div>
+							<div class="itemsContainer__item">
+								<div class="item__logo">
+									<img src="img/section5/web design.svg" alt="">
+								</div>	
+								<h3 class="item__title">Web дизайн</h3>
+								<ul class="item__ourSkills">
+									<li>Полиграфический дизайн</li>
+									<li>Гибкий дизайн</li>
+									<li>“Жёсткий” дизайн</li>
+									<li>Дизайн интерфейсов</li>
+								</ul>
+								<p class="item__information" id="descriptionGray">Мы быстро и качественно сможем разработать дизайн для вашего сайта или приложения</p>
+								<div class="item__button">
+									<a target="_blank" href="#!">Подробнее</a>
+								</div>
+							</div>
+							<div class="itemsContainer__item">
+								<div class="item__logo">
+									<img src="img/section5/web fix.svg" alt="">
+								</div>	
+								<h3 class="item__title">Исправление и доработка сайта</h3>
+								<ul class="item__ourSkills">
+									<li>Исправление багов</li>
+									<li>Доработка/Переработка блоков</li>
+									<li>Адаптив сайта</li>
+								</ul>
+								<p class="item__information" id="descriptionGray">Если у вас возникли проблемы или баги с существующим проектом, то смело пишите нам и мы вам поможем!</p>
+								<div class="item__button">
+									<a target="_blank" href="#!">Подробнее</a>
+								</div>
+							</div>
+							<div class="itemsContainer__item">
+								<div class="item__logo">
+									<img src="img/section5/web dev.svg" alt="">
+								</div>	
+								<h3 class="item__title">Разработка сайтов</h3>
+								<ul class="item__ourSkills">
+									<li>Разработка сайта с нуля</li>
+									<li>Разработка сайта по ТЗ</li>
+									<li>Разработка сайта по макету</li>
+									<li>Переработка всего сайта</li>
+								</ul>
+								<p class="item__information" id="descriptionGray">У вас есть бизнес, но нет сайта? Не переживайте, наши программисты всегда будут рады вам помочь!</p>
+								<div class="item__button">
+									<a target="_blank" href="#!">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section6">	
+					<div class="section6Container">
+						<div class="section6Container__imgContainer">
+							<img src="img/section6/tyda.png" alt="">
+						</div>
+						<div class="section6Container__textContainer">
+							<h1>CROVEX</h1>
+							<h2>Нуждается в тебе!</h2>
+							<p id="descriptionWhite">Наша команда нуждается в тебе! Будь ты дизайнер или программист, мы всегда будем рады видеть тебя в новых участниках данной команды.</p>
+							<p id="descriptionGray" class="last">Подать заявку и задать вопрос, ты сможешь в группе вк!</p>
+							<a target="_blank" href="https://vk.com/crowexwebdev" id="greenButton">Подать заявку</a>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footerContainer">
+					<div class="footerContainer__menuContainer">
+						<div class="menuContainer__title">
+							<h2>Меню :</h2>
+						</div>
+						<nav class="menuContainer__menuNavigationContainer">
+							<ul class="menuNavigationContainer__listContainer">
+								<li><a href="#scrollToMain">Главная</a></li>
+								<li><a href="#scrollToAbout">О нас</a></li>
+								<li><a href="#scrollToServices">Услуги</a></li>
+								<li><a href="#scrollTopPort">Портфолио</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footerContainer__socialContainer">
+						<div class="socialContainer__title">
+							<h2>Контакты :</h2>
+						</div>
+						<nav class="socialContainer__socialNavigationContainer">
+							<ul class="socialNavigationContainer__listContainer">
+								<li><a target="_blank" href="https://www.youtube.com/@CROVEXweb-dev/featured"><img src="img/icon/youtube ico.svg" alt=""></a></li>
+								<li><a target="_blank" href="https://discord.gg/AYCSCRVMVc"><img src="img/icon/discord ico.svg" alt=""></a></li>
+								<li><a target="_blank" href="https://vk.com/crowexwebdev"><img src="img/icon/vk ico.svg" alt=""></a></li>
+							</ul>
+						</nav>
+						<div class="socialContainer__descriptionContainer">
+							<p>Gmail - <a href="mailto: supp0rtwebdevteam@gmail.com">supp0rtwebdevteam@gmail.com</a></p>
+							<p id="descriptionGray">Если вы хотите заказать у нас рекламу или обсудить какие-то детали, то смело пишите нам на почту, ответ не заставит вас долго ждать!</p>
+						</div>
+					</div>
+					<div class="footerContainer__mapContainer">
+						<iframe src="https://yandex.com/map-widget/v1/?um=constructor%3Ae1b2b158cb264d209235f576ea46de4a2f421a9c8b3f3dd16459e954d7c08e77&amp;source=constructor" width="450" height="350" frameborder="0"></iframe>
+					</div>
+				</div>
+			</footer>
+			<footer class="footerLine">
+				<div class="footerLine__title">
+					<h2>© CROVEX</h2>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
